@@ -1,3 +1,3 @@
-FROM alanzha0598/docker-nginx
+FROM nginx
 COPY src/ /usr/share/nginx/html
 CMD 'nginx'
