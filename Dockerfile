@@ -1,3 +1,3 @@
 FROM nginx
 COPY src/ /usr/share/nginx/html
-CMD 'nginx'
+CMD ["nginx", "-g", "daemon off;"]
